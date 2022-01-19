@@ -598,6 +598,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-style: dashed;
 }
 
+.border-dotted {
+  border-style: dotted;
+}
+
 .border-transparent {
   border-color: transparent;
 }
@@ -768,6 +772,42 @@ Ensure the default browser behavior of the `hidden` attribute.
           text-decoration-line: underline;
 }
 
+.decoration-indigo-500 {
+  -webkit-text-decoration-color: #6366f1;
+          text-decoration-color: #6366f1;
+}
+
+.decoration-green-500 {
+  -webkit-text-decoration-color: #22c55e;
+          text-decoration-color: #22c55e;
+}
+
+.decoration-gray-700 {
+  -webkit-text-decoration-color: #374151;
+          text-decoration-color: #374151;
+}
+
+.decoration-wavy {
+  -webkit-text-decoration-style: wavy;
+          text-decoration-style: wavy;
+}
+
+.decoration-4 {
+  text-decoration-thickness: 4px;
+}
+
+.decoration-0 {
+  text-decoration-thickness: 0px;
+}
+
+.decoration-2 {
+  text-decoration-thickness: 2px;
+}
+
+.underline-offset-2 {
+  text-underline-offset: 2px;
+}
+
 .hover\:border:hover {
   border-width: 1px;
 }
@@ -795,6 +835,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 .hover\:bg-indigo-900:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(49 46 129 / var(--tw-bg-opacity));
+}
+
+.hover\:font-semibold:hover {
+  font-weight: 600;
 }
 
 .hover\:text-purple-800:hover {
@@ -834,6 +878,16 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 .hover\:focus\:text-purple-800:focus:hover {
+  --tw-text-opacity: 1;
+  color: rgb(107 33 168 / var(--tw-text-opacity));
+}
+
+.active\:border-purple-800:active {
+  --tw-border-opacity: 1;
+  border-color: rgb(107 33 168 / var(--tw-border-opacity));
+}
+
+.active\:text-purple-800:active {
   --tw-text-opacity: 1;
   color: rgb(107 33 168 / var(--tw-text-opacity));
 }
