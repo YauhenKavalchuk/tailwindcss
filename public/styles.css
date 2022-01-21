@@ -571,6 +571,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-right: 0.5rem;
 }
 
+.mr-3 {
+  margin-right: 0.75rem;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
 .block {
   display: block;
 }
@@ -691,6 +699,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   max-width: 1280px;
 }
 
+.cursor-pointer {
+  cursor: pointer;
+}
+
 .items-center {
   align-items: center;
 }
@@ -759,6 +771,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-width: 1px;
 }
 
+.border-x {
+  border-left-width: 1px;
+  border-right-width: 1px;
+}
+
+.border-y {
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+}
+
 .border-b {
   border-bottom-width: 1px;
 }
@@ -769,6 +791,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .border-dotted {
   border-style: dotted;
+}
+
+.border-white {
+  --tw-border-opacity: 1;
+  border-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
 
 .bg-gray-100 {
@@ -796,12 +823,51 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(165 180 252 / var(--tw-bg-opacity));
 }
 
+.bg-purple-500\/0 {
+  background-color: rgb(168 85 247 / 0);
+}
+
+.bg-purple-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(168 85 247 / var(--tw-bg-opacity));
+}
+
+.bg-purple-500\/80 {
+  background-color: rgb(168 85 247 / 0.8);
+}
+
+.bg-green-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(34 197 94 / var(--tw-bg-opacity));
+}
+
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
 .bg-gradient-to-b {
   background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
 }
 
 .bg-gradient-to-bl {
   background-image: linear-gradient(to bottom left, var(--tw-gradient-stops));
+}
+
+.bg-gradient-to-r {
+  background-image: linear-gradient(to right, var(--tw-gradient-stops));
+}
+
+.bg-gradient-to-l {
+  background-image: linear-gradient(to left, var(--tw-gradient-stops));
+}
+
+.bg-gradient-to-tl {
+  background-image: linear-gradient(to top left, var(--tw-gradient-stops));
+}
+
+.bg-gradient-to-tr {
+  background-image: linear-gradient(to top right, var(--tw-gradient-stops));
 }
 
 .from-transparent {
@@ -814,12 +880,69 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(37 99 235 / 0));
 }
 
+.from-cyan-500 {
+  --tw-gradient-from: #06b6d4;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(6 182 212 / 0));
+}
+
+.from-red-500 {
+  --tw-gradient-from: #ef4444;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(239 68 68 / 0));
+}
+
+.from-green-500 {
+  --tw-gradient-from: #22c55e;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(34 197 94 / 0));
+}
+
+.from-orange-500 {
+  --tw-gradient-from: #f97316;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(249 115 22 / 0));
+}
+
+.from-blue-500 {
+  --tw-gradient-from: #3b82f6;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(59 130 246 / 0));
+}
+
+.via-purple-500 {
+  --tw-gradient-stops: var(--tw-gradient-from), #a855f7, var(--tw-gradient-to, rgb(168 85 247 / 0));
+}
+
+.via-green-500 {
+  --tw-gradient-stops: var(--tw-gradient-from), #22c55e, var(--tw-gradient-to, rgb(34 197 94 / 0));
+}
+
+.via-purple-500\/50 {
+  --tw-gradient-stops: var(--tw-gradient-from), rgb(168 85 247 / 0.5), var(--tw-gradient-to, rgb(168 85 247 / 0));
+}
+
 .to-black\/80 {
   --tw-gradient-to: rgb(0 0 0 / 0.8);
 }
 
 .to-indigo-500 {
   --tw-gradient-to: #6366f1;
+}
+
+.to-blue-500 {
+  --tw-gradient-to: #3b82f6;
+}
+
+.to-green-700 {
+  --tw-gradient-to: #15803d;
+}
+
+.to-orange-700 {
+  --tw-gradient-to: #c2410c;
+}
+
+.to-red-700 {
+  --tw-gradient-to: #b91c1c;
+}
+
+.to-blue-700 {
+  --tw-gradient-to: #1d4ed8;
 }
 
 .fill-blue-500 {
@@ -887,6 +1010,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .py-1 {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
+}
+
+.px-1 {
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
 }
 
 .pr-2 {
@@ -993,6 +1121,18 @@ Ensure the default browser behavior of the `hidden` attribute.
   text-underline-offset: 2px;
 }
 
+.transition {
+  transition-property: color, background-color, border-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-text-decoration-color, -webkit-backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-text-decoration-color, -webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.duration-300 {
+  transition-duration: 300ms;
+}
+
 .header-link {
   display: inline-block;
   border-bottom-width: 2px;
@@ -1065,6 +1205,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-color: rgb(75 85 99 / var(--tw-border-opacity));
 }
 
+.hover\:border-gray-200:hover {
+  --tw-border-opacity: 1;
+  border-color: rgb(229 231 235 / var(--tw-border-opacity));
+}
+
 .hover\:bg-blue-100:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(219 234 254 / var(--tw-bg-opacity));
@@ -1073,6 +1218,26 @@ Ensure the default browser behavior of the `hidden` attribute.
 .hover\:bg-indigo-800:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(55 48 163 / var(--tw-bg-opacity));
+}
+
+.hover\:via-purple-500:hover {
+  --tw-gradient-stops: var(--tw-gradient-from), #a855f7, var(--tw-gradient-to, rgb(168 85 247 / 0));
+}
+
+.hover\:via-purple-500\/50:hover {
+  --tw-gradient-stops: var(--tw-gradient-from), rgb(168 85 247 / 0.5), var(--tw-gradient-to, rgb(168 85 247 / 0));
+}
+
+.hover\:via-purple-500\/100:hover {
+  --tw-gradient-stops: var(--tw-gradient-from), rgb(168 85 247 / 1), var(--tw-gradient-to, rgb(168 85 247 / 0));
+}
+
+.hover\:via-purple-500\/0:hover {
+  --tw-gradient-stops: var(--tw-gradient-from), rgb(168 85 247 / 0), var(--tw-gradient-to, rgb(168 85 247 / 0));
+}
+
+.hover\:to-green-500:hover {
+  --tw-gradient-to: #22c55e;
 }
 
 .hover\:text-gray-900:hover {
