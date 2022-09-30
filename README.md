@@ -43,22 +43,22 @@ TailwindCSS - это CSS-фреймворк, предлагающий обшир
 ---
 
 ### Список уроков:
-- Введение (Introduction)
-- Установка окружения (Setup Environment)
-- Шрифты и цвета (Fonts & Colors)
-- Отступы и граница (Padding, Margin & Borders)
-- Hover и Декорирование (Hover & Decoration)
-- Кнопки (Buttons)
-- Применение Flexbox (Using Flexbox)
-- Директивы (Directives)
-- Иконки (Icons)
-- Сеточный макет (Grid Layout)
-- Градиенты (Gradients)
-- Отзывчивый макет (Responsive Layout)
-- Картинки (Images)
-- Плавные переходы (Transitions)
-- Тёмная тема (Dark Theme)
-- Пользовательские настройки (Customization)
+- [#0 Введение (Introduction)](https://youtu.be/3bbfisTVMcE)
+- [#1 Установка окружения (Setup Environment)](https://youtu.be/z36GC0fA4OM)
+- [#2 Шрифты и цвета (Fonts & Colors)](https://youtu.be/U5Jg69DloXQ)
+- [#3 Отступы и граница (Padding, Margin & Borders)](https://youtu.be/kddzWvIK4pY)
+- [#4 Hover и Декорирование (Hover & Decoration)](https://youtu.be/UoNGb6Xn46M)
+- [#5 Кнопки (Buttons)](https://youtu.be/G1IH3rNpdB4)
+- [#6 Применение Flexbox (Using Flexbox)](https://youtu.be/mmBIbOfRtOw)
+- [#7 Директивы (Directives)](https://youtu.be/GJyXpidSlCU)
+- [#8 Иконки (Icons)](https://youtu.be/pXawvKcd4zg)
+- [#9 Сеточный макет (Grid Layout)](https://youtu.be/NgFumXMTdx8)
+- [#10 Градиенты (Gradients)](https://youtu.be/uCdfvPLtAJs)
+- [#11 Отзывчивый макет (Responsive Layout)](https://youtu.be/C1uDlLylTyc)
+- [#12 Картинки (Images)](https://youtu.be/eQkfcnhPLT8)
+- [#13 Плавные переходы (Transitions)](https://youtu.be/w0DOvTtZ3_c)
+- [#14 Тёмная тема (Dark Theme)](https://youtu.be/_hy4L-__NOQ)
+- [#15 Пользовательские настройки (Customization)](https://youtu.be/vtWafRDajD0)
 
 ---
 
