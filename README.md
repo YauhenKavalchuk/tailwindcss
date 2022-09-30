@@ -76,4 +76,3 @@ TailwindCSS - это CSS-фреймворк, предлагающий обшир
 [twitter]: https://twitter.com/YauhenKavalchuk
 [sponsor]: https://www.youtube.com/channel/UCE9ODjNIkOHrnSdkYWLfYhg/join
 [patron]: https://www.patreon.com/YauhenKavalchuk
-
